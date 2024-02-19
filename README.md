@@ -1,2 +1,2 @@
 # Rust / WASM framework
-A minimal for developing web applications with the Rust / WASM in Github Codespaces.
+A devcontainer for Rust-WASM applications in Github Codespaces.
