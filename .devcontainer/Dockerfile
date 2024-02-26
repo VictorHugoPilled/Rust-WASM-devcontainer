@@ -1,8 +1,5 @@
 # Install Base Image
-FROM alpine:3.14
-
-# Install rust
-RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+FROM rust:latest as builder
 
 # Add wasm target
 RUN rustup target add wasm32-unknown-unknown
